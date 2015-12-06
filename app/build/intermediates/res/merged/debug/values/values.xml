@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="blue_color">#5c92cd</drawable>
+    <drawable name="gray_color">#c5c5c5</drawable>
+    <drawable name="red_color">#ef4b62</drawable>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Moodlight</string>
+    <string name="biDirectional">Begins at white and moves to blue or red depending on the stress or relaxing trend of the user. </string>
+    <string name="bridge_not_found">Bridge was not found. Check to make sure that all three lights are lit blue and active.</string>
+    <string name="bridge_not_responding">Bridge is not responding. Check to make sure that all three lights are lit blue and active.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_enable_wifi">Go to Wifi Networks Page</string>
+    <string name="btn_find_bridge">Find new bridge</string>
+    <string name="btn_more">More</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_random">Random Lights</string>
+    <string name="btn_reconnect">Reconnect</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_retry">Retry</string>
+    <string name="connecting">Connecting ...</string>
+    <string name="could_not_find_bridge">Hue cannot find your bridge. Please check that it is connected to the same Wi-Fi router as your app and press</string>
+    <string name="enter_light_name">Enter light name</string>
+    <string name="fullSpectrum">Begins at red (stressed) and progressively transitions through the color spectrum to blue as the user relaxes.</string>
+    <string name="introMessage">Welcome to Moodlight!</string>
+    <string name="menu_find_bridge">Find new Bridge</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="no_bridge">No Bridge Found.   Start Bridge Search</string>
+    <string name="no_wifi">Wifi is not enabled. Click below to access wifi settings and connect to the bridge router. </string>
+    <string name="onePlayer">Begins as red (stressed) and progressively transitions to blue (relaxed) through white light as the user relaxes. 
+         </string>
+    <string name="press_pushlink_button">Press the link button on the bridge</string>
+    <string name="search_progress">Searching ...</string>
+    <string name="searching_for_bridges">Searching for Bridges</string>
+    <string name="title_error">Error</string>
+    <string name="troubleshoot_message">Would you like to go ahead and troubleshoot the application? Moodlight will attempt to resolve existing or notify you of
+        existing probems with bridge and bluetooth connection.</string>
+    <string name="txt_click_random_button">Click the Random Lights Button to set your lamps to random colours.</string>
+    <string name="txt_could_not_connect">No connection</string>
+    <string name="txt_last_heartbeat">Last Heartbeat : </string>
+    <string name="txt_pushlink">Pushlink</string>
+    <string name="txt_sdk_version">SDK Version</string>
+    <string name="txt_select_smartbridge">Please select a bridge to use for this app</string>
+    <string name="txt_selectbridges">Available Access Points</string>
+    <string name="wifi_error">Error: Wifi not Enabled</string>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DarkActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="DarkTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/DarkActionBar</item>
+    </style>
+    <!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/values/styles_mlactionbar.xml -->
+    <eat-comment/>
+    <style name="ML.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme.ML" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme.MLactionbar</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionBarSize">65dip</item>
+    </style>
+    <style name="Theme.MLactionbar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:displayOptions"/>
+        <item name="android:titleTextStyle">@style/ML.ActionBar.Text</item>
+    </style>
+</resources>

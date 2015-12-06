@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\jjl\Documents\GitHub\Moodlight\app\src\main\assets"><file name="fonts/OpenSans-Light.ttf" path="C:\Users\jjl\Documents\GitHub\Moodlight\app\src\main\assets\fonts\OpenSans-Light.ttf"/><file name="fonts/OpenSans-Semibold.ttf" path="C:\Users\jjl\Documents\GitHub\Moodlight\app\src\main\assets\fonts\OpenSans-Semibold.ttf"/></source></dataSet><dataSet config="debug"><source path="C:\Users\jjl\Documents\GitHub\Moodlight\app\src\debug\assets"/></dataSet></merger>

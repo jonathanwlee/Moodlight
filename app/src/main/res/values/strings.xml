@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Hue -->
+    <string name="no_bridge">No Bridge Found.   Start Bridge Search</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_find_bridge">Find new bridge</string>
+    <string name="btn_random">Random Lights</string>
+    <string name="search_progress">Searching ...</string>
+    <string name="connecting">Connecting ...</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="bridge_not_responding">Bridge is not responding. Check to make sure that all three lights are lit blue and active.</string>
+    <string name="bridge_not_found">Bridge was not found. Check to make sure that all three lights are lit blue and active.</string>
+    
+    <string name="txt_could_not_connect">No connection</string>
+    <string name="txt_click_random_button">Click the Random Lights Button to set your lamps to random colours.</string>
+    <string name="could_not_find_bridge">Hue cannot find your bridge. Please check that it is connected to the same Wi-Fi router as your app and press</string>
+    <string name="btn_more">More</string>
+    <string name="btn_reconnect">Reconnect</string>
+    <string name="enter_light_name">Enter light name</string>
+    <string name="txt_sdk_version">SDK Version</string>
+    <string name="menu_find_bridge">Find new Bridge</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="btn_retry">Retry</string>
+    <string name="searching_for_bridges">Searching for Bridges</string>
+    <string name="txt_selectbridges">Available Access Points</string>
+    <string name="txt_pushlink">Pushlink</string>
+    <string name="press_pushlink_button">Press the link button on the bridge</string>
+    <string name="txt_select_smartbridge">Please select a bridge to use for this app</string>
+    <string name="title_error">Error</string>
+    <string name="txt_last_heartbeat">Last Heartbeat : </string>
+
+
+    <string name="onePlayer">Begins as red (stressed) and progressively transitions to blue (relaxed) through white light as the user relaxes. 
+         </string>
+    <string name="fullSpectrum">Begins at red (stressed) and progressively transitions through the color spectrum to blue as the user relaxes.</string>
+    
+    <string name="biDirectional">Begins at white and moves to blue or red depending on the stress or relaxing trend of the user. </string>
+    
+    <string name="introMessage">Welcome to Moodlight!</string>
+    <string name="app_name">Moodlight</string>
+    <string name="wifi_error">Error: Wifi not Enabled</string>
+    <string name="no_wifi">Wifi is not enabled. Click below to access wifi settings and connect to the bridge router. </string>
+    <string name="btn_enable_wifi">Go to Wifi Networks Page</string>
+    <string name="troubleshoot_message">Would you like to go ahead and troubleshoot the application? Moodlight will attempt to resolve existing or notify you of
+        existing probems with bridge and bluetooth connection.</string>
+    
+</resources>

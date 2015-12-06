@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- For honeycomb and up -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.ML" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme.MLactionbar</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionBarSize">65dip</item>
+    </style>
+
+    <style name="Theme.MLactionbar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:displayOptions"></item>
+        <item name="android:titleTextStyle">@style/ML.ActionBar.Text</item>
+    </style>
+
+    <style name="ML.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

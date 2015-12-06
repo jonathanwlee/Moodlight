@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentPanel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_gradient"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/introMessage"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/subPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/troubleshoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:text="troubleshoot me?"
+            android:onClick="clickTroubleshoot"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/jjl/Documents/GitHub/Moodlight/app/src/main/res/layout/layout_intro.xml -->
