@@ -281,7 +281,7 @@ public abstract class MoodLightActivity extends Activity implements PipAnalyzerL
 
 				else { 
 					moodlightViewFrag.setPipStatusText(pipID,lastTrend);
-					myStressScore.updateScore(pipID, false);
+					//myStressScore.updateScore(pipID, false);
 
 					/*Extra boost to relaxation if last trend was relaxing even if constant. 
 					if (lastTrend=="Relaxing") { 

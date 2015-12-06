@@ -263,7 +263,7 @@ public class ReflectiveLightingActivity extends MoodLightActivity {
 		public void displayEnd() {
 			pipStatus.setVisibility(View.GONE);
 			trialStatus.setVisibility(View.VISIBLE);
-			returnButton.setVisibility(View.VISIBLE);
+			//returnButton.setVisibility(View.VISIBLE);
 		}
 		
 		public void initText() {

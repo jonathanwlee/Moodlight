@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jjl\Documents\GitHub\Moodlight\app\libs\pipsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1e94c1f6184cef02194fcc655ace1b10a83319ee">
+        <dex dex="C:\Users\jjl\Documents\GitHub\Moodlight\app\build\intermediates\pre-dexed\debug\pipsdk-ff8ff72d6d2a77db57caf94e70525f31ca01fa85.jar" />
+    </item>
+    <item
+        jar="C:\Users\jjl\Documents\GitHub\Moodlight\app\libs\huelocalsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b4834b4f53fe4e244207b99082a1651959f4db31">
+        <dex dex="C:\Users\jjl\Documents\GitHub\Moodlight\app\build\intermediates\pre-dexed\debug\huelocalsdk-4e092993f6e66856b70190aaabe8ae25ac0cacaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\jjl\Documents\GitHub\Moodlight\app\libs\huesdkresources.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a77e9371d8378ee06e42cb3e3e3f04bbdb7714d8">
+        <dex dex="C:\Users\jjl\Documents\GitHub\Moodlight\app\build\intermediates\pre-dexed\debug\huesdkresources-2efbe89eb0304c2017510850fb43730b0f457ebf.jar" />
+    </item>
+    <item
+        jar="C:\Users\jjl\Documents\GitHub\Moodlight\app\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f4f7fcb93c67b84cdc871b82c36d9a849d6c5da1">
+        <dex dex="C:\Users\jjl\Documents\GitHub\Moodlight\app\build\intermediates\pre-dexed\debug\android-support-v13-18a8424e20984999113dfa984fe3dc5eff73397d.jar" />
+    </item>
+
+</items>
